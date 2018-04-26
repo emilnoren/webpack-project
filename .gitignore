@@ -1,0 +1,30 @@
+# Version control files
+*.svn
+*.hg
+*.git
+*.bzr
+
+
+# Node.js
+node_modules
+
+
+# Generic junk files
+Thumbs.db
+desktop.ini
+_notes/
+dwsync.xml
+.afpDeleted*
+tmp-*.html
+*.DS_Store
+
+
+# Server settings & configuration files
+server.ini
+sftp-config.json
+*.sublime-workspace
+
+
+# Utilities & build files
+git-patch_*
+npm-debug.log
