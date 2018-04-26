@@ -1,30 +1,30 @@
-# Version control files
-*.svn
+# Version control
 *.hg
-*.git
 *.bzr
+*.git
+*.svn
 
 
-# Node.js
+# Node
 node_modules
 
 
-# Generic junk files
-Thumbs.db
-desktop.ini
-_notes/
-dwsync.xml
-.afpDeleted*
-tmp-*.html
-*.DS_Store
-
-
-# Server settings & configuration files
+# Server & conf. files
+*.sublime-workspace
 server.ini
 sftp-config.json
-*.sublime-workspace
 
 
-# Utilities & build files
-git-patch_*
+# Utilities & build
 npm-debug.log
+git-patch_*
+
+
+# Junk
+_notes/
+.afpDeleted*
+*.DS_Store
+Thumbs.db
+desktop.ini
+tmp-*.html
+dwsync.xml
