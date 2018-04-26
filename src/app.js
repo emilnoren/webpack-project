@@ -1,1 +1,5 @@
-console.log('Hello, World!!!');
+require('./css/style.css');
+
+const log = require('./js/log.js');
+
+log('Emil');
