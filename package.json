@@ -1,0 +1,11 @@
+{
+  "name": "webpack-test",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "webpack src/app.js dist/bundle.js"
+  },
+  "devDependencies": {
+    "webpack": "^1.0.0",
+    "webpack-cli": "^2.0.15"
+  }
+}
