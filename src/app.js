@@ -1,5 +1,6 @@
-require('./css/style.css');
+// Get our styles
+//import './main.scss';
 
-const log = require('./js/log.js');
 
-log('Emil');
+// Get our js
+// require('./js/main.js');
