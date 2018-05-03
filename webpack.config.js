@@ -1,4 +1,5 @@
 const Path = require('path'),
+      Autoprefixer = require('autoprefixer'),
       ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
@@ -6,7 +7,7 @@ module.exports = {
   entry: ['./src/app.js', './src/scss/main.scss'],
   output: {
     path: Path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: './assets/js/main.bundle.js'
   },
   module: {
     rules: [
