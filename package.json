@@ -1,6 +1,10 @@
 {
   "name": "webpack-test",
   "version": "0.1.0",
+  "browserslist": [
+    "> 1%",
+    "IE 10"
+  ],
   "scripts": {
     "start": "webpack"
   },
@@ -11,6 +15,7 @@
     "hoek": "^5.0.3",
     "node-sass": "^4.9.0",
     "postcss": "^6.0.21",
+    "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.1",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.15"

@@ -10,3 +10,15 @@ html body {
     background-color: blue; }
   html body.hello {
     color: red; }
+
+::-webkit-input-placeholder {
+  color: gray; }
+
+:-ms-input-placeholder {
+  color: gray; }
+
+::-ms-input-placeholder {
+  color: gray; }
+
+::placeholder {
+  color: gray; }
