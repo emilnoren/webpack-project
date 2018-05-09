@@ -1,5 +1,6 @@
 const Path = require('path'),
-      ExtractTextPlugin = require('extract-text-webpack-plugin');
+      ExtractTextPlugin = require('extract-text-webpack-plugin'),
+      WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = {
   mode: 'production',
@@ -32,6 +33,11 @@ module.exports = {
     ]
   },
   plugins: [
+
+    // Send a notification when the build is finished
+    new WebpackNotifierPlugin({
+      title: 'Webpack'
+    }),
 
     // Define where to save the file
     new ExtractTextPlugin({
