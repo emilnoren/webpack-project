@@ -22,7 +22,11 @@ module.exports = {
       // SCSS loader for webpack
       {
         test: /\.(sass|scss)$/,
-        use: ExtractTextPlugin.extract(['css-loader', 'postcss-loader', 'sass-loader'])
+        use: ExtractTextPlugin.extract([
+          'css-loader', 
+          'postcss-loader', 
+          'sass-loader'
+        ])
       }
 
     ]
