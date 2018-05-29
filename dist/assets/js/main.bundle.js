@@ -78,6 +78,9 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 // Get our js
 var hej = __webpack_require__(/*! ./js/main.js */ "./src/js/main.js");
 
@@ -90,12 +93,13 @@ hej('evert');
   !*** ./src/js/main.js ***!
   \************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (name) => {
+"use strict";
 
-	console.log('hej ' + name);
 
+module.exports = function (name) {
+  console.log('hej ' + name);
 };
 
 /***/ }),
