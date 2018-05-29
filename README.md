@@ -4,11 +4,11 @@ A boilerplate project with webpack with some friendly reminders.
 
 
 ## Reference
-###### Webpack
+#### Webpack
 [Getting started with Webpack](http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html)
 
 
-###### Packages
+#### Packages
 [Babel](https://babeljs.io/)
 
 [PostCSS](https://github.com/postcss)
@@ -24,7 +24,7 @@ A boilerplate project with webpack with some friendly reminders.
 [Extract Text Plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)
 
 
-###### Javascript
+#### Javascript
 [Classes](https://javascript.info/class)
 
 [Imports & exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
