@@ -6,6 +6,7 @@ const Path = require('path'),
 module.exports = {
   mode: 'development',
   // mode: 'production',
+  devtool: 'source-map',
   entry: ['./src/app.js', './src/scss/main.scss'],
   output: {
     path: Path.resolve(__dirname, 'dist'),

@@ -78,7 +78,10 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Get our js\nvar hej = __webpack_require__(/*! ./js/main.js */ \"./src/js/main.js\");\n\nhej('evert');\n\n//# sourceURL=webpack:///./src/app.js?");
+// Get our js
+var hej = __webpack_require__(/*! ./js/main.js */ "./src/js/main.js");
+
+hej('evert');
 
 /***/ }),
 
@@ -89,7 +92,11 @@ eval("// Get our js\nvar hej = __webpack_require__(/*! ./js/main.js */ \"./src/j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = (name) => {\n\n\tconsole.log('hej ' + name);\n\n};\n\n//# sourceURL=webpack:///./src/js/main.js?");
+module.exports = (name) => {
+
+	console.log('hej ' + name);
+
+};
 
 /***/ }),
 
@@ -100,7 +107,7 @@ eval("module.exports = (name) => {\n\n\tconsole.log('hej ' + name);\n\n};\n\n//#
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/main.scss?");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -111,8 +118,11 @@ eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./sr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/app.js */\"./src/app.js\");\nmodule.exports = __webpack_require__(/*! ./src/scss/main.scss */\"./src/scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/app.js_./src/scss/main.scss?");
+__webpack_require__(/*! ./src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! ./src/scss/main.scss */"./src/scss/main.scss");
+
 
 /***/ })
 
 /******/ });
+//# sourceMappingURL=main.bundle.js.map
