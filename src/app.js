@@ -1,6 +1,4 @@
-// Get our styles
-//import './main.scss';
-
-
 // Get our js
-// require('./js/main.js');
+var hej = require('./js/main.js');
+
+hej('evert');

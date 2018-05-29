@@ -1,9 +1,11 @@
 const Path = require('path'),
+      CircularDependencyPlugin = require('circular-dependency-plugin'),
       ExtractTextPlugin = require('extract-text-webpack-plugin'),
       WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
+  // mode: 'production',
   entry: ['./src/app.js', './src/scss/main.scss'],
   output: {
     path: Path.resolve(__dirname, 'dist'),
@@ -33,6 +35,14 @@ module.exports = {
     ]
   },
   plugins: [
+
+    // Get rid of circular dependencies
+    new CircularDependencyPlugin({
+      exclude: /a\.js|node_modules/,
+      failOnError: true,
+      allowAsyncCycles: false,
+      cwd: process.cwd(),
+    }),
 
     // Send a notification when the build is finished
     new WebpackNotifierPlugin({
