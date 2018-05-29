@@ -4,8 +4,8 @@ const Path = require('path'),
       WebpackNotifierPlugin = require('webpack-notifier');
 
 module.exports = {
-  mode: 'development',
-  // mode: 'production',
+  // mode: 'development',
+  mode: 'production',
   devtool: 'source-map',
   entry: ['./src/app.js', './src/scss/main.scss'],
   output: {
