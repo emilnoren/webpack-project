@@ -15,12 +15,9 @@ A boilerplate project using webpack, with some friendly reminders.
   - [Other](#other)
 
 
-
-
 ## Reference
 #### Webpack
 [Getting started with Webpack](http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html)
-
 
 
 #### Javascript
@@ -29,7 +26,6 @@ A boilerplate project using webpack, with some friendly reminders.
 [Imports & exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
 
 [ES6](http://es6-features.org/#Constants)
-
 
 
 #### Packages
@@ -56,11 +52,11 @@ A boilerplate project using webpack, with some friendly reminders.
 [Font Magician](https://github.com/jonathantneal/postcss-font-magician)
 
 
-
-
 ## Notes
+
 #### Javascript
-**Import/export**
+#####Import/export#####
+
 Imports are done in app.js with
 ```
 import {[class or function]} from './js/[my file].js';
@@ -78,14 +74,39 @@ export function MyFunction() {
     ...
 }
 ```
-for functions.
+for functions. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
 
+#####ES6#####
 
-**ES6**
-A reminder of some useful ES6 functionality
+A reminder of some useful ES6 functionality.
+
 
 Use `let` instead of `var` to scope varables. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+
+Function definitions can be done with `() => {}`, `(variable) => {}` or `() => returnValue`. [>](http://es6-features.org/#ExpressionBodies)
+
+
+Default parameters for function parameters are defined like
+```
+foo(x, y = 2) => {
+    return x + y;
+}
+foo(1); // returns 2
+```
+[>](http://es6-features.org/#DefaultParameterValues)
+
+
+Rest parameters are used to aggregate remaining arguments into a single parameter, like so
+```
+foo(a, ...b) => {
+    return a * b.length
+}
+foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 (variable b has 3 values) which is 6
+```
+[>](http://es6-features.org/#RestParameter)
+
 
 #### SCSS
 
