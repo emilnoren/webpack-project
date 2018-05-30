@@ -3,6 +3,7 @@ A boilerplate project using webpack, with some friendly reminders.
 
 
 
+
 ## Index
 - [Reference](#reference)
   - [Webpack](#webpack)
@@ -10,6 +11,9 @@ A boilerplate project using webpack, with some friendly reminders.
   - [Packages](#packages)
 - [Notes](#notes)
   - [Javascript](#javascript-1)
+  - [SCSS](#scss)
+  - [Other](#other)
+
 
 
 
@@ -18,12 +22,14 @@ A boilerplate project using webpack, with some friendly reminders.
 [Getting started with Webpack](http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html)
 
 
+
 #### Javascript
 [Classes](https://javascript.info/class)
 
 [Imports & exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
 
 [ES6](http://es6-features.org/#Constants)
+
 
 
 #### Packages
@@ -51,5 +57,37 @@ A boilerplate project using webpack, with some friendly reminders.
 
 
 
+
 ## Notes
 #### Javascript
+**Import/export**
+Imports are done in app.js with
+```
+import {[class or function]} from './js/[my file].js';
+```
+
+The structure of an export should be
+```
+export class MyClass {
+    ...
+}
+```
+for classes, and 
+```
+export function MyFunction() {
+    ...
+}
+```
+for functions.
+
+
+
+**ES6**
+A reminder of some useful ES6 functionality
+
+Use `let` instead of `var` to scope varables. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+#### SCSS
+
+
+#### Other
