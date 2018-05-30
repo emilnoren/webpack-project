@@ -1,3 +1,2 @@
-*{-webkit-box-sizing:border-box;box-sizing:border-box}body,html{width:100%;height:100%}body:after,
-html:after{content:'';display:block;clear:both}
+@font-face{font-family:Alice;font-style:normal;font-weight:400;src:local("Alice Regular"),local(Alice-Regular),url(//fonts.gstatic.com/s/alice/v9/sZyKh5NKrCk1xkCk_F1S8A.eot?#) format("eot"),url(https://fonts.gstatic.com/s/alice/v9/l5RFQT5MQiajQkFxjDLySg.woff2) format("woff2"),url(https://fonts.gstatic.com/s/alice/v9/_H4kMcdhHr0B8RDaQcqpTA.woff) format("woff")}*{-webkit-box-sizing:border-box;box-sizing:border-box}body,html{width:100%;height:100%;font-family:Alice}
 /*# sourceMappingURL=main.bundle.css.map*/

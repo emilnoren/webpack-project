@@ -34,3 +34,7 @@ A boilerplate project using webpack, with some friendly reminders.
 [PostCSS Initial](https://github.com/maximkoretskiy/postcss-initial)
 
 [PostCSS Preset Env](https://github.com/csstools/postcss-preset-env)
+
+[PostCSS Utility Library](https://github.com/ismamz/postcss-utilities)
+
+[Font Magician](https://github.com/jonathantneal/postcss-font-magician)

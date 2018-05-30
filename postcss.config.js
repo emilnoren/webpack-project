@@ -17,5 +17,8 @@ module.exports = {
 
 		// Useful utilities and mixins for our SCSS-files
 		require('postcss-utilities'),
+
+		// Generates font-face stuff. This is great.
+		require('postcss-font-magician'),
 	]
 }
