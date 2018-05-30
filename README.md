@@ -55,7 +55,7 @@ A boilerplate project using webpack, with some friendly reminders.
 ## Notes
 
 #### Javascript
-#####Import/export#####
+##### Import/export
 
 Imports are done in app.js with
 ```
@@ -77,7 +77,7 @@ export function MyFunction() {
 for functions. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
 
-#####ES6#####
+##### ES6
 
 A reminder of some useful ES6 functionality.
 
