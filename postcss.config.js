@@ -11,5 +11,7 @@ module.exports = {
 		require('postcss-initial')({
 			reset: 'inherited'
 		}),
+
+		require('postcss-preset-env'),
 	]
 }

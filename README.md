@@ -1,11 +1,19 @@
 # webpack-project
-A boilerplate project with webpack with some friendly reminders.
+A boilerplate project using webpack, with some friendly reminders.
 
 
 
 ## Reference
 #### Webpack
 [Getting started with Webpack](http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html)
+
+
+#### Javascript
+[Classes](https://javascript.info/class)
+
+[Imports & exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
+
+[ES6](http://es6-features.org/#Constants)
 
 
 #### Packages
@@ -25,10 +33,4 @@ A boilerplate project with webpack with some friendly reminders.
 
 [PostCSS Initial](https://github.com/maximkoretskiy/postcss-initial)
 
-
-#### Javascript
-[Classes](https://javascript.info/class)
-
-[Imports & exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
-
-[ES6](http://es6-features.org/#Constants)
+[PostCSS Preset Env](https://github.com/csstools/postcss-preset-env)
