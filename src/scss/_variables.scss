@@ -1,0 +1,57 @@
+// Layout related variables
+$layout: (
+	'padding-lg': 35px,
+	'padding-md': 20px,
+	'padding-sm': 10px,
+);
+
+// Font sizes
+$font-size: (
+	'h1': 42px,
+	'h2': 35px,
+	'h3': 28px,
+	'h4': 22px,
+	'h5': 18px,
+	'h6': 16px,
+	'p': 14px,
+);
+
+// Font families
+$font-family: (
+	'heading': 'Verdana, sans-serif',
+	'content': 'Helvetica, serif',
+);
+
+// Site colors
+$colors: (
+	'font-heading': #000,
+	'font-content': #000,
+	'font-link': #00A,
+	'font-link-hover': #00F,
+	'font-link-visited': #006,
+	'content-primary': #FFF,
+	'content-secondary': #DDD,
+	'content-tertiary': #99C,
+);
+
+// Animation timings
+$timing: (
+	'long': 1s,
+	'medium': 0.6s,
+	'short': 0.3s,
+);
+
+// Media query breakpoints
+$breakpoints: (
+	'xl': 1199px,
+	'lg': 991px,
+	'md': 767px,
+	'sm': 575px,
+	'xs': 419px,
+);
+
+// Z-index layers
+$zIndex: (
+	'header': 999,
+	'footer': 999,
+);
