@@ -4,6 +4,7 @@
 
 html,
 body {
+	@util clearfix;
 	width: 100%;
 	height: 100%;
 }

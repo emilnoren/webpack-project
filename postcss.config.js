@@ -12,6 +12,10 @@ module.exports = {
 			reset: 'inherited'
 		}),
 
+		// Allow modern CSS in our files
 		require('postcss-preset-env'),
+
+		// Useful utilities and mixins for our SCSS-files
+		require('postcss-utilities'),
 	]
 }
