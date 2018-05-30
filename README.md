@@ -4,11 +4,12 @@ A boilerplate project using webpack, with some friendly reminders.
 
 
 ## Index
--[Reference](#reference)
- -[Webpack](#webpack)
- -[Javascript](#javascript)
- -[Packages](#packages)
--[Notes](#notes)
+- [Reference](#reference)
+  - [Webpack](#webpack)
+  - [Javascript](#javascript)
+  - [Packages](#packages)
+- [Notes](#notes)
+  - [Javascript](#javascript-1)
 
 
 
