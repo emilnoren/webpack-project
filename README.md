@@ -3,6 +3,7 @@ A boilerplate project using webpack, with some friendly reminders.
 <br/>
 <br/>
 <br/>
+
 ## Index
 - [Reference](#reference)
   - [Webpack](#webpack)
@@ -15,11 +16,14 @@ A boilerplate project using webpack, with some friendly reminders.
 <br/>
 <br/>
 <br/>
+
 ## Reference
+
 #### Webpack
 [Getting started with Webpack](http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html)
 <br/>
 <br/>
+
 #### Javascript
 [Classes](https://javascript.info/class)
 
@@ -28,6 +32,7 @@ A boilerplate project using webpack, with some friendly reminders.
 [ES6](http://es6-features.org/#Constants)
 <br/>
 <br/>
+
 #### Packages
 [Babel](https://babeljs.io/)
 
@@ -53,8 +58,11 @@ A boilerplate project using webpack, with some friendly reminders.
 <br/>
 <br/>
 <br/>
+
 ## Notes
+
 #### Javascript
+
 ##### Import/export
 
 Imports are done in app.js with
@@ -79,6 +87,7 @@ for functions. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 <br/>
 <br/>
 <br/>
+
 ##### ES6
 
 A reminder of some useful ES6 functionality.
@@ -109,8 +118,10 @@ foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 (variable b has 3 values) which is 
 <br/>
 <br/>
 <br/>
+
 #### SCSS
 <br/>
 <br/>
 <br/>
+
 #### Other
