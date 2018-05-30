@@ -71,6 +71,7 @@ import {[class or function]} from './js/[my file].js';
 ```
 <br/>
 <br/>
+
 The structure of an export should be
 ```
 export class MyClass {
@@ -93,12 +94,15 @@ for functions. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 A reminder of some useful ES6 functionality.
 <br/>
 <br/>
+
 Use `let` instead of `var` to scope varables. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 <br/>
 <br/>
+
 Function definitions can be done with `() => {}`, `(variable) => {}` or `() => returnValue`. [>](http://es6-features.org/#ExpressionBodies)
 <br/>
 <br/>
+
 Default parameters for function parameters are defined like[>](http://es6-features.org/#DefaultParameterValues)
 ```
 foo(x, y = 2) => {
@@ -108,6 +112,7 @@ foo(1); // returns 2
 ```
 <br/>
 <br/>
+
 Rest parameters are used to aggregate remaining arguments into a single parameter, like so [>](http://es6-features.org/#RestParameter)
 ```
 foo(a, ...b) => {
