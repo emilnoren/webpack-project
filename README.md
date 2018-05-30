@@ -19,12 +19,12 @@ A boilerplate project using webpack, with some friendly reminders.
 
 ## Reference
 
-#### Webpack
+### Webpack
 [Getting started with Webpack](http://tooling.github.io/book-of-modern-frontend-tooling/dependency-management/webpack/getting-started.html)
 <br/>
 <br/>
 
-#### Javascript
+### Javascript
 [Classes](https://javascript.info/class)
 
 [Imports & exports](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export)
@@ -33,7 +33,7 @@ A boilerplate project using webpack, with some friendly reminders.
 <br/>
 <br/>
 
-#### Packages
+### Packages
 [Babel](https://babeljs.io/)
 
 [PostCSS](https://github.com/postcss)
@@ -61,9 +61,9 @@ A boilerplate project using webpack, with some friendly reminders.
 
 ## Notes
 
-#### Javascript
+### Javascript
 
-##### Import/export
+#### Import/export
 
 Imports are done in app.js with
 ```
@@ -91,7 +91,7 @@ for functions.
 <br/>
 <br/>
 
-##### ES6
+#### ES6
 
 A reminder of some useful ES6 functionality.
 <br/>
@@ -125,16 +125,16 @@ Rest parameters are used to aggregate remaining arguments into a single paramete
 foo(a, ...b) => {
     return a * b.length
 }
-foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 because variable b has 3 values, resulting in a return value of 6
+foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 because variable b has 3 values
 ```
 [Read more](http://es6-features.org/#RestParameter)
 <br/>
 <br/>
 <br/>
 
-#### SCSS
+### SCSS
 <br/>
 <br/>
 <br/>
 
-#### Other
+### Other
