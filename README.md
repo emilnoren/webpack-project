@@ -84,7 +84,7 @@ export function MyFunction() {
     ...
 }
 ```
-for functions. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+for functions. [More information](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 <br/>
 <br/>
 <br/>
@@ -95,31 +95,33 @@ A reminder of some useful ES6 functionality.
 <br/>
 <br/>
 
-Use `let` instead of `var` to scope varables. [>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+Use `let` instead of `var` to scope varables. [More information](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
 <br/>
 <br/>
 
-Function definitions can be done with `() => {}`, `(variable) => {}` or `() => returnValue`. [>](http://es6-features.org/#ExpressionBodies)
+Function definitions can be done with `() => {}`, `(variable) => {}` or `() => returnValue`. [More information](http://es6-features.org/#ExpressionBodies)
 <br/>
 <br/>
 
-Default parameters for function parameters are defined like[>](http://es6-features.org/#DefaultParameterValues)
+Default parameters for function parameters are defined like
 ```
 foo(x, y = 2) => {
     return x + y;
 }
 foo(1); // returns 2
 ```
+[More information](http://es6-features.org/#DefaultParameterValues)
 <br/>
 <br/>
 
-Rest parameters are used to aggregate remaining arguments into a single parameter, like so [>](http://es6-features.org/#RestParameter)
+Rest parameters are used to aggregate remaining arguments into a single parameter, like so
 ```
 foo(a, ...b) => {
     return a * b.length
 }
 foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 (variable b has 3 values) which is 6
 ```
+[More information](http://es6-features.org/#RestParameter)
 <br/>
 <br/>
 <br/>
