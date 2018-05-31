@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"./assets/css/main.bundle.css","sourceRoot":""}
+{"version":3,"sources":["webpack:///./src/scss/_generic.scss"],"names":[],"mappings":"AAAA,EACC,mDAAsB,CACtB,UAIA,WAAW,WACC","file":"./assets/css/main.bundle.css","sourcesContent":["* {\n\tbox-sizing: border-box;\n}\n\nhtml,\nbody {\n\twidth: 100%;\n\theight: 100%;\n}\n\n// Just a reminder that all: initial can be used to reset elements\n// div {\n// \tall: initial;\n// }"],"sourceRoot":""}
