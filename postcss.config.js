@@ -20,5 +20,8 @@ module.exports = {
 
 		// Generates font-face stuff. This is great.
 		require('postcss-font-magician'),
+
+		// LostGrid for smooth grid making
+		require('lost'),
 	]
 }
