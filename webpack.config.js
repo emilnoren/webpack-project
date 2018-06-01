@@ -87,7 +87,7 @@ module.exports = {
 			title: 'Webpack'
 		}),
 
-		// Define where to save the file
+		// Define where to save the compiled css file
 		new ExtractTextPlugin({
 			filename: './assets/css/[name].bundle.css',
 			allChunks: true,

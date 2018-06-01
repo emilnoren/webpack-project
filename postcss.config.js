@@ -7,7 +7,7 @@ module.exports = {
 		// Minify our css
 		require('cssnano'),
 
-		// Add all: initial reset functionality
+		// Add "all: initial" reset functionality
 		require('postcss-initial')({
 			reset: 'inherited'
 		}),
@@ -18,10 +18,10 @@ module.exports = {
 		// Useful utilities and mixins for our SCSS-files
 		require('postcss-utilities'),
 
-		// Generates font-face stuff. This is great.
+		// Automatically generates font-face stuff. This is great.
 		require('postcss-font-magician'),
 
-		// LostGrid for smooth grid making
+		// Use LostGrid for smooth grid making
 		require('lost'),
 	]
 }

@@ -8,7 +8,7 @@ export class ClassExample {
 
 	sayHi() {
 
-		alert('Hi, ' + this.name);
+		alert(`Hi, ${this.name}`);
 
 	}
 
