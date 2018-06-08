@@ -1,5 +1,5 @@
 # webpack-project
-A boilerplate project using webpack, with some friendly reminders.
+A boilerplate project using webpack with node, with some friendly reminders.
 <br/>
 <br/>
 <br/>
@@ -34,6 +34,13 @@ A boilerplate project using webpack, with some friendly reminders.
 <br/>
 
 ### Packages
+
+#### Server
+
+[Express](https://expressjs.com/)
+
+#### Dev
+
 [Babel](https://babeljs.io/)
 
 [PostCSS](https://github.com/postcss)
