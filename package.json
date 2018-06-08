@@ -32,5 +32,7 @@
     "webpack-cli": "^2.0.15",
     "webpack-notifier": "^1.6.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
