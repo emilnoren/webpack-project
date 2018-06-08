@@ -9,6 +9,8 @@ A boilerplate project using webpack with node, with some friendly reminders.
   - [Webpack](#webpack)
   - [Javascript](#javascript)
   - [Packages](#packages)
+    - [Server](#server)
+    - [Dev](#dev)
 - [Notes](#notes)
   - [Javascript](#javascript-1)
   - [SCSS](#scss)
