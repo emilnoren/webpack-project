@@ -1,5 +1,5 @@
 # webpack-project
-A boilerplate project using webpack with node, with some friendly reminders.
+A boilerplate project using webpack, with some friendly reminders.
 <br/>
 <br/>
 <br/>
@@ -15,6 +15,7 @@ A boilerplate project using webpack with node, with some friendly reminders.
   - [Javascript](#javascript-1)
   - [SCSS](#scss)
   - [Other](#other)
+- [TODO](#todo)
 <br/>
 <br/>
 <br/>
@@ -149,3 +150,10 @@ foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 because variable b has 3 values
 <br/>
 
 ### Other
+<br/>
+<br/>
+<br/>
+
+### TODO:
+- Create and integrate a config.js
+- Setup a yeoman project generator

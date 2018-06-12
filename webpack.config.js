@@ -3,7 +3,18 @@ const Path = require('path'),
 			ExtractTextPlugin = require('extract-text-webpack-plugin'),
 			WebpackNotifierPlugin = require('webpack-notifier');
 
-// Our config constants
+// Shared plugins
+const sharedPlugins = [
+	
+	// Get rid of circular dependencies
+	new CircularDependencyPlugin({
+		exclude: /a\.js|node_modules/,
+		failOnError: true,
+		allowAsyncCycles: false,
+		cwd: process.cwd(),
+	}),
+
+];
 
 module.exports = [
 
@@ -12,7 +23,10 @@ module.exports = [
 		// mode: 'development',
 		mode: 'production',
 		devtool: 'source-map',
-		entry: ['./src/client/main.js', './src/client/scss/main.scss'],
+		entry: [
+			'./src/client/main.js', 
+			'./src/client/scss/main.scss'
+		],
 		output: {
 			path: Path.resolve(__dirname, 'dist'),
 			filename: './assets/js/main.bundle.js'
@@ -79,12 +93,10 @@ module.exports = [
 		},
 		plugins: [
 
-			// Get rid of circular dependencies
-			new CircularDependencyPlugin({
-				exclude: /a\.js|node_modules/,
-				failOnError: true,
-				allowAsyncCycles: false,
-				cwd: process.cwd(),
+			// Define where to save the compiled css file
+			new ExtractTextPlugin({
+				filename: './assets/css/[name].bundle.css',
+				allChunks: true,
 			}),
 
 			// Send a notification when the build is finished
@@ -92,30 +104,22 @@ module.exports = [
 				title: 'Client assets'
 			}),
 
-			// Define where to save the compiled css file
-			new ExtractTextPlugin({
-				filename: './assets/css/[name].bundle.css',
-				allChunks: true,
-			}),
-
-		],
+		].concat(sharedPlugins),
 	},
 
 	/* SERVER CONFIG */
 	{
-		mode: 'development',
+		// mode: 'development',
+		mode: 'production',
 		target: 'node',
 		devtool: 'source-map',
 		entry: ['./src/server/app.js'],
-		node: {
-			fs: 'empty',
-			net: 'empty'
-		},
 		output: {
 			path: Path.resolve(__dirname, 'dist'),
 			libraryTarget: 'commonjs',
 			filename: './app.js'
 		},
+		// Don't compile anything in node_modules or without a relative path
 		externals: [
 			/^(?!\.|\/).+/i,
 		],
@@ -148,19 +152,11 @@ module.exports = [
 		},
 		plugins: [
 
-			// Get rid of circular dependencies
-			new CircularDependencyPlugin({
-				exclude: /a\.js|node_modules/,
-				failOnError: true,
-				allowAsyncCycles: false,
-				cwd: process.cwd(),
-			}),
-
 			// Send a notification when the build is finished
 			new WebpackNotifierPlugin({
 				title: 'Server assets'
 			}),
 
-		],
+		].concat(sharedPlugins),
 	}
 ];
