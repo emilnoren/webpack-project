@@ -1,5 +1,8 @@
 # webpack-project
 A boilerplate project using webpack, with some friendly reminders.
+
+`npm start` starts the node server
+`npm run-script build` compiles the server script, client script and css
 <br/>
 <br/>
 <br/>

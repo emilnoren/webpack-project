@@ -2,8 +2,10 @@
 
 import express from 'express';
 
-const app = express();
+const config = require('./config.js'),
+			app = express();
+
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.listen(3000, () => console.log(process.env));
+app.listen(config.server.port, () => console.log(config));
