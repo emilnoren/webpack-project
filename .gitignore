@@ -13,6 +13,7 @@ node_modules
 *.sublime-workspace
 server.ini
 sftp-config.json
+.env
 
 
 # Utilities & build

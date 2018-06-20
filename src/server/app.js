@@ -1,11 +1,22 @@
 'use strict';
 
+// Get config
+require('dotenv').config();
+
+// Import our modules and classes
 import express from 'express';
 
-const config = require('./config.js'),
-			app = express();
+// Our constants
+const app = express();
 
+// Base route
+app.get(
+	'/', 
+	(req, res) => res.send('Hello World!')
+);
 
-app.get('/', (req, res) => res.send('Hello World!'));
-
-app.listen(config.server.port, () => console.log(config));
+// Start server
+app.listen(
+	process.env.PORT, 
+	() => console.log(process.env)
+);

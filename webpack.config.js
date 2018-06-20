@@ -1,3 +1,6 @@
+// Get our config
+require('dotenv').config();
+
 const Path = require('path'),
 			CircularDependencyPlugin = require('circular-dependency-plugin'),
 			ExtractTextPlugin = require('extract-text-webpack-plugin'),
