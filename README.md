@@ -158,5 +158,4 @@ foo(2, 1, 3, 'hello'); // Evaluates as 2 * 3 because variable b has 3 values
 <br/>
 
 ### TODO:
-- Create and integrate a config.js
 - Setup a yeoman project generator
