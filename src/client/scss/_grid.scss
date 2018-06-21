@@ -1,10 +1,11 @@
 @lost flexbox flex; // Set LostGrid to use flexbox instead of floats
 
-// Breakpoint xl
+// Utility classes
 .grid-edit {
 	lost-utility: edit;
 }
 
+// Breakpoint xl
 .row {
 	lost-center: 100%;
 

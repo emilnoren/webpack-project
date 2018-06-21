@@ -23,8 +23,7 @@ module.exports = [
 
 	/* CLIENTSIDE CONFIG */
 	{
-		// mode: 'development',
-		mode: 'production',
+		mode: process.env.ENVIRONMENT,
 		devtool: 'source-map',
 		entry: [
 			'./src/client/main.js', 
@@ -112,8 +111,7 @@ module.exports = [
 
 	/* SERVER CONFIG */
 	{
-		// mode: 'development',
-		mode: 'production',
+		mode:  process.env.ENVIRONMENT,
 		target: 'node',
 		devtool: 'source-map',
 		entry: ['./src/server/app.js'],
