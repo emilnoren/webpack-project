@@ -1,13 +1,11 @@
 # webpack-project
 A boilerplate project using webpack, with some friendly reminders.
-
-`npm start` starts the node server
-`npm run-script build` compiles the server script, client script and css
 <br/>
 <br/>
 <br/>
 
 ## Index
+- [Setup](#setup)
 - [Reference](#reference)
   - [Webpack](#webpack)
   - [Javascript](#javascript)
@@ -19,6 +17,13 @@ A boilerplate project using webpack, with some friendly reminders.
   - [SCSS](#scss)
   - [Other](#other)
 - [TODO](#todo)
+<br/>
+<br/>
+<br/>
+
+## Setup
+`npm start` starts the node server
+`npm run-script build` compiles the server script, client script and css
 <br/>
 <br/>
 <br/>
@@ -70,6 +75,8 @@ A boilerplate project using webpack, with some friendly reminders.
 [Font Magician](https://github.com/jonathantneal/postcss-font-magician)
 
 [LostGrid](http://lostgrid.org/)
+
+[Dotenv](https://github.com/motdotla/dotenv)
 <br/>
 <br/>
 <br/>
